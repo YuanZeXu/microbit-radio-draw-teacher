@@ -12,7 +12,7 @@ input.onButtonPressed(Button.AB, function () {
 radio.onReceivedString(function (receivedString) {
     while (true) {
         basic.showString(receivedString)
-        basic.pause(100)
+        basic.pause(200)
     }
 })
 input.onButtonPressed(Button.B, function () {
